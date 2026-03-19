@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bedwarshelper",
+  "version": "${version}",
+  "name": "BedwarsHelper",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bedwarshelper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.exmple.bedwarshelper.client.BedwarshelperDataGenerator"
+    ],
+    "client": [
+      "org.exmple.bedwarshelper.client.BedwarshelperClient"
+    ],
+    "main": [
+      "org.exmple.bedwarshelper.Bedwarshelper"
+    ]
+  },
+  "mixins": [
+    "bedwarshelper.mixins.json",
+    {
+      "config": "bedwarshelper.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
