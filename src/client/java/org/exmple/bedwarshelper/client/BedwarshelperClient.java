@@ -6,5 +6,6 @@ public class BedwarshelperClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+        KeyBindingManager.init();
     }
 }

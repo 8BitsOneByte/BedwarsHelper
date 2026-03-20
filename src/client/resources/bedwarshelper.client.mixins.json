@@ -4,6 +4,7 @@
   "package": "org.exmple.bedwarshelper.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "EntityGlowingMixin"
   ],
   "injectors": {
     "defaultRequire": 1
