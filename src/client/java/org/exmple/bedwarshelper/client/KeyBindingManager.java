@@ -29,7 +29,7 @@ public class KeyBindingManager {
             while (TOGGLE_ESP_KEY.wasPressed()) {
                 ModConfig.ESP_ENABLED = !ModConfig.ESP_ENABLED;
                 if (client.player != null) {
-                    String status = ModConfig.ESP_ENABLED ? "§cESP: OFF" : "§aESP: ON";
+                    String status = ModConfig.ESP_ENABLED ? "§aESP: ON" : "§cESP: OFF";
                     client.player.sendMessage(
                         net.minecraft.text.Text.of(status),
                         true

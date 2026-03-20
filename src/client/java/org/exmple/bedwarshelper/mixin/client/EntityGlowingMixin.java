@@ -18,7 +18,7 @@ public class EntityGlowingMixin {
     private void forcePlayerGlowing(CallbackInfoReturnable<Boolean> cir) {
         Entity entity = (Entity) (Object) this;
         if (ModConfig.ESP_ENABLED && entity instanceof PlayerEntity) {
-            cir.setReturnValue(false);//TODO:解决这里的逻辑问题，理清楚这里换成true为什么就会一直发光，不管配置ESP:ON是否启用
+            cir.setReturnValue(true);
         }
     }
 }
