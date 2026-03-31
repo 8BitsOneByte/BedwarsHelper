@@ -1,0 +1,8 @@
+{
+  "screen.hitboxenhanced.whitelist.title": "Config Whitelist Entity Categories",
+  "screen.hitboxenhanced.whitelist.search_hint": "Search entity id",
+  "screen.hitboxenhanced.whitelist.enable": "Enable",
+  "screen.hitboxenhanced.whitelist.disable": "Disable",
+  "key.hitboxenhanced.open_whitelist": "Open whitelist config",
+  "key.category.hitboxenhanced.config": "BedwarsHelper - Better Hitbox"
+}

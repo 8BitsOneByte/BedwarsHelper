@@ -1,0 +1,8 @@
+{
+  "screen.hitboxenhanced.whitelist.title": "配置白名单实体类别",
+  "screen.hitboxenhanced.whitelist.search_hint": "搜索实体ID",
+  "screen.hitboxenhanced.whitelist.enable": "启用",
+  "screen.hitboxenhanced.whitelist.disable": "禁用",
+  "key.hitboxenhanced.open_whitelist": "打开白名单配置",
+  "key.category.hitboxenhanced.config": "BedwarsHelper - 更好的碰撞箱"
+}

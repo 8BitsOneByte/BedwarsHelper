@@ -34,6 +34,7 @@ repositories {
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
@@ -43,6 +44,10 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modImplementation "org.exmple:HitboxEnhanced:1.0.0"
+    include modImplementation("org.exmple:HitboxEnhanced:1.0.0")
+    modImplementation "org.exmple:ItemModelEnhanced:1.0.0"
+    include modImplementation("org.exmple:ItemModelEnhanced:1.0.0")
 }
 
 processResources {
