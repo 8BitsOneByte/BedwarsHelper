@@ -3,8 +3,10 @@
   "id": "bedwarshelper",
   "version": "${version}",
   "name": "BedwarsHelper",
-  "description": "",
-  "authors": [],
+  "description": "A Bedwars helper mod with ESP and enhanced hitbox features.",
+  "authors": [
+    "8BitsOneByte"
+  ],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/bedwarshelper/icon.png",
