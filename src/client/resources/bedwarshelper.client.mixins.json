@@ -4,7 +4,8 @@
   "package": "org.exmple.bedwarshelper.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "EntityGlowingMixin"
+    "EntityGlowingMixin",
+    "InGameHudStatusEffectMixin"
   ],
   "injectors": {
     "defaultRequire": 1

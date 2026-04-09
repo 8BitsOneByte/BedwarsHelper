@@ -2,11 +2,11 @@ package org.exmple.bedwarshelper.ui;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.text.Text;
-import org.exmple.bedwarshelper.client.GlobalConstants;
 
 public class ModScreen extends Screen {
 
     protected ModScreen() {
+
         super(Text.literal("Bedwars Helper Mod"));
     }
 
